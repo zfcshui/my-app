@@ -1,10 +1,8 @@
-import "./App.css";
 import RootRouter from "./router";
 
 function App() {
   return (
-    <RootRouter>
-    </RootRouter>
+    <RootRouter />
   );
 }
 
