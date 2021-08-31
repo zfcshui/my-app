@@ -1,7 +1,7 @@
-import Home from "../views/Home/Home";
-import About from "../views/About/About";
-import NotFound from "../views/NotFound/NotFound";
-import Content from "../views/Content/Content";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import NotFound from "../pages/NotFound/NotFound";
+import Content from "../pages/Content/Content";
 
 export const routes = [
   {

@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       Home
       <Button
-        onClick={e => {
+        onClick={() => {
           dispatch(add(2));
         }}
         type="primary"
@@ -20,7 +20,7 @@ export default function Home() {
         {count}
       </Button>
       <Button
-        onClick={e => {
+        onClick={() => {
           setCount1(count1 + 2);
         }}
       >
